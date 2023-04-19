@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/main_theme">
+
+    <!-- Add TextView for displaying app title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vending Machine"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Add ImageView for displaying Coke image -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/coke"
+        android:contentDescription="Coke"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Add ImageView for displaying Chips image -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/chips"
+        android:contentDescription="Chips"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Add ImageView for displaying Candy image -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/candy"
+        android:contentDescription="Candy"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Add ImageView for displaying Fruit image -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fruit"
+        android:contentDescription="Fruit" />
+
+    <!-- Add Button for adding product to cart -->
+    <Button
+        android:id="@+id/buttonAddToCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add to Cart"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Add Button for removing product from cart -->
+    <Button
+        android:id="@+id/buttonRemoveFromCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remove from Cart"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Add Button for checking if product is in cart -->
+    <Button
+        android:id="@+id/buttonCheckItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Item"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Add Button for checking out and displaying total -->
+    <Button
+        android:id="@+id/buttonCheckout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Checkout" />
+
+    <!-- Add Button for checking balance -->
+    <Button
+        android:id="@+id/buttonCheckBalance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Balance"
+        android:layout_marginTop="16dp" />
+
+    <!-- Add TextView for displaying cart details -->
+    <TextView
+        android:id="@+id/textViewCartDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
